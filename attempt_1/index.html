@@ -1,0 +1,109 @@
+<!DOCTYPE html> <!-- Declare the doctype (HTML) -->
+
+<!-- index.html is always the default page for the containing folder, unless otherwise configured -->
+
+<html> <!-- beginning or "root" of the HTML code -->
+  <head> <!-- contains "head" specific metadata/code -->
+    <title>HTML Brah!</title> <!-- site title, displayed in tab/title bar -->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      li:nth-child(1) { /* alternate way to target elements */
+        color: orange;
+      } /* this can also be combined with an id selector */
+
+    </style>  <!-- inline styling, alternative to separate css sheet -->
+  </head>
+
+  <body>
+    <h1>Hello World!</h1> <!-- headings, h1-6 -->
+    <h1> Things I Must Do <!-- h1 most important, h6 least important -->
+      <span>Today</span>
+    </h1>
+    <p>
+      <strong>Here</strong> is <em>my</em> text.
+    </p> <!-- em = emphasis (italics) -->
+    <!-- strong = bold -->
+    <!-- em and strong aren't always italics and bold, that's just the browser defaults -->
+    <!-- <br />  line break, can also be <br> -->
+    <h2>Things in a list </h2>
+
+    <ul> <!-- unordered list, i.e. not numbered -->
+      <li>This is a list item </li> <!-- list item (child tag) -->
+      <li>This is the second list item </li>
+      <li id="list-item">This is the third list item </li>
+    </ul>
+
+    <h2>Things in an Ordered List </h2>
+
+    <ol> <!-- Ordered (numbered) list -->
+      <li> Number one </li>
+      <li> Number two </i>
+    </ol>
+
+    <h2> Definition List </h2>
+    <dl> <!-- defintion list -->
+      <dt> Atom:
+        <dd> A c0de editor </dt>
+      <dt> vim:
+        <dd> another code editor </dd>
+    </dl>
+
+    <h3> This is an h3 Heading </h3>
+    <h4> This is an h4 Heading </h4>
+    <h5> This is an h5 Heading </h5>
+    <h6> This is an h6 Heading </h6>
+
+    <blockquote> <!-- for quotes, pretty self explanatory -->
+      <p>
+      "Wherever you go, there you are" - Blockquote
+      </p>
+    </blockquote>
+
+    <p> Visit me at <a href="https://google.com" target="_blank">my website</a> </p>
+    <!-- <a> anchor, href reference -->
+    <!-- taget _blank for new tab -->
+    <p><a href="about/about.html"> Learn more about me </a></p>
+    <!-- if html files (pages) are in same folder, you can just locally reference
+    If not, then you have to reference te folder they're in -->
+
+    <img src="img/builder.jpg" alt="Construction Hat" />
+    <br>
+    <img src="https://cms-assets.tutsplus.com/uploads/users/16/syllabuses/1136/preview_image/react400.jpg" alt="react logo"/>
+    <br>
+
+    <div> <!-- arbitrary division for ease of organization and/or styling -->
+      <h1>Div!</h1>
+      <h2>This is under the the first Div</h2>
+      <p>This is the paragraph text.
+        Here is some more text under the paragraph tag, still under the first div.
+        Perhaps some images will follow.
+      </p>
+      <br>
+      <img src="https://seeklogo.com/images/A/archlinux-logo-1159446C2C-seeklogo.com.png" alt="Best Linux Distro" />
+    </div>
+
+    <br><br>
+
+    <h2>IDs and Classes</h2>
+    <p>IDs can be assigned to specific element(s), whereas classes are for groups of elements (I think...)</p>
+    <p>IDs are not intented to group elements together</p>
+    <p>Classes are for groups of elements</p>
+    <p>For example: id="id-name"</p>
+    <p>For example: class="buttons"</p>
+    <p>Classes are referenced in css by .button</p>
+
+    <div id="Named-Div-1">
+      <h2>This is the Beginning of Named Div (1)</h2>
+      <p>Need to set specific styling in style.css</p>
+      <ul class="List">
+        <li class="List"> List Item 1 </li>
+        <li class="List"> List Item 2 </li>
+    </div>
+
+
+
+  </body>
+
+
+</html>

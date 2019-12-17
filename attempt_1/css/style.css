@@ -1,0 +1,35 @@
+a {
+  color: red;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: helvetica, monospace, sans-serif;
+}
+
+div {
+  width: 500px;
+  margin: auto; /* left and right margins identical */
+  background-color: goldenrod;
+  text-align: center;
+}
+
+#list-item {
+  color: lime;
+}
+
+.buttons {
+  color: magenta;
+}
+
+#Named-Div-1 {
+  width: 750px;
+  margin: auto;
+  background-color: gray;
+  text-align: right;
+}
+
+.List {
+  text-shadow: 100px;
+  color: purple;
+}
