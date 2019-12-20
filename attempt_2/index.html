@@ -5,6 +5,20 @@
     <meta charset="utf-8"/>
     <!--- self closing tag, HTML5 doesn't require closing slash, could just use brackets  --->
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      #emphasis {
+        color: red;
+      }
+
+      .buttons {
+        color: blue;
+      }
+
+      li:nth-child(3) {
+        color: orange;
+      }
+
+    </style>
   </head>
 
   <body>
@@ -87,7 +101,36 @@
     <!--- Day 10: Images --->
     <h2>Images (img element)</h2>
     <img src="img/builder.jpg" alt="Alternate text in case images are not available or turned off. This is a construction hard hat." />
-    <img src="https://www.archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" alt="linking to an external image. Arch Linux is clearly the best linux distro."
+    <img src="https://www.archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" alt="linking to an external image. Arch Linux is clearly the best linux distro." />
+
+    <!--- Day 11: Divs --->
+    <div>
+      <h2>The need for Divs</h2>
+      <p><strong>I was to arbitrarily organize/position content.</p>
+      <p>This section is inside a div (see CSS)</p></strong>
+    </div>
+
+    <!--- Day 12: IDs and Classes --->
+    <h2>IDs and Classes</h2>
+    <p>Need to be able to identify different divs and other elements of the same type</p>
+    <p>In CSS, Reference IDs with #, ie #emphasis</p>
+    <p>IDs are meant for single, specific elements, not groups of elements.</p>
+    <p>Classes are meant for groups of elements.</p>
+    <p>For example, maybe you want all Buttons to have a similar style, so you'd create a Buttons class</p>
+    <p>But if one button needs to be different, give it an ID.</p>
+    <p>Reference classes in CSS with a '.', ie .buttons or .emphasis</p>
+    <p>Try not to overdo it with IDs, easy to get messy/littered</p>
+    <p>CSS3 allows for targeting elements without identifiers (ul:first-of-type, li:nth-child(3)) but older browsers may not support it. AKA pseudo-classes.</p>
+    <ul>
+      <li id="emphasis">This</li>
+      <li class="buttons">is</li>
+      <li id="emphasis">my</li>
+      <li class="buttons">list</li>
+    </ul>
+
+    <!--- Day 13: Quiz 1 --->
+    <h2>Quiz 1</h2>
+    <p>See 'quiz' folder. <a href="quiz/quiz1.html" target="_blank">Link</a></p>
 
   </body>
 </html>

@@ -5,3 +5,10 @@ a {
 h1 {
   font-family: ubuntu, Arial, sans-serif;
 }
+
+div {
+  width: 500px;
+  margin: auto;
+  background-color: red;
+  text-align: center;
+}
