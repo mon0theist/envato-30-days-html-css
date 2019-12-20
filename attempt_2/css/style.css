@@ -2,13 +2,53 @@ a {
   color: red; text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 h1 {
   font-family: ubuntu, Arial, sans-serif;
 }
 
-div {
+#day11 {
   width: 500px;
   margin: auto;
   background-color: red;
   text-align: center;
+}
+
+
+
+.wrap {
+  min-width: 600px;
+  width: 80%;
+  margin: auto;
+  background: green;
+  overflow: hidden;
+}
+
+.content {
+  background: red;
+  float: left;
+  width: 70%;
+}
+
+aside {
+  background: brown;
+  float: left;
+  width: 30%
+}
+
+.content, aside {
+  height: 600px;
+}
+
+aside ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer {
+  clear: both;
 }
