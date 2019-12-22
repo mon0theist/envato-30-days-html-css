@@ -3,25 +3,45 @@
   <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/contact.css" />
-  <title>Title</title>
+  <title>Contact</title>
   </head>
 
   <body>
-    <p>Definitely review this video because this is all new stuff.</p>
+    <p><strong>Definitely review this video</strong> because this is all new stuff.</p>
+    <p>Look up documentation on the form element</p>
+    <p>form has an action attribute and a method attribute. "Get" (transmitted through the URL, ie the URL changes based on what's entered in the forms) is the default, "Post" is the other. Wasn't explained in course, out of scope. Post is more secure but I don't know why.</p>
+    <p>Action attribute specifies where data is posted once the submit button is clicked. Default is to post to current page. However, it could be posted to something like "contact.php".</p>
     <p>Set both id and name for server-side language purposes (php, js, etc.), make them same value (see HTML)</p>
-    <form action="" method="post">
+    <p>Size of textarea can be set with rows and cols attribs directly in the markup, but its better to style via CSS.</p>
+
+    <form action="" method="get">
       <ul>
         <li>
           <label for="name">Enter Your Name:</label>
           <input id="name" name="name" />
+          <!--- setting both the id and name attribs is sometimes needed for server-side languages like php, js, etc. --->
         </li>
 
         <li>
           <label for="comments">Your Comments</label>
-          <textarea id="comments" name="comments">Default text that can be added (optional)</textarea>
+          <textarea id="comments" name="comments" rows="20" cols="30">Default text that can be added (optional)</textarea>
+
         </li>
+        <li>
+          <label for="css">Do you like CSS?</label>
+          <input type="checkbox" name="css" id="css" />
+        </li>
+
+        <li>
+          <label for="">Favorite Language?</label>
+          <input type="radio" /> CSS
+          <input type="radio" /> HTML
+          <input type="radio" /> Python
+          <input type="radio" /> C
+        </li>
+
+        <li><input type="submit" value="Go"/></li>
       </ul>
-      <input type="submit" value="Go"/>
     </form>
 
   </body>
