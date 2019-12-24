@@ -1,0 +1,34 @@
+body {
+  background: #666;
+}
+
+#nettuts {
+  font-size: 120px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: -1px;
+  color: black;
+  text-transform: lowercase;
+  text-shadow: 0 1px white;
+  font-variant: small-caps;
+
+}
+
+#typo {
+  font-size: 120px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Merienda One', cursive;
+  letter-spacing: -1px;
+  color: black;
+  text-transform: lowercase;
+  text-shadow: 0 1px white;
+  font-variant: small-caps;
+
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
