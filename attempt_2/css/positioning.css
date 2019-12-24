@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: default;
+}
+
+.wrap {
+  width: 800px;
+  height: 1000px;
+  margin: auto;
+  background: #e3e3e3;
+  position: relative;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background: red;
+  margin: auto;
+  position: absolute;
+  left: 20px; top: 30px;
+}
