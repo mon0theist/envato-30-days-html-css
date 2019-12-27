@@ -1,0 +1,36 @@
+.container_12 {
+  background: red;
+}
+
+nav li {
+  display: inline;
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+aside {
+  background: green;
+}
+
+.primary {
+  background: #e3e3e3;
+}
+
+header {
+  background: purple;
+}
+
+.main {
+  margin: 30px 0;
+}
+
+nav{
+  background: orange;
+}
+
+section {
+  box-sizing: border-box; /* may not work in IE */
+  -moz-box-sizing: border-box; /* firefox compatibility */
+  -webkit-box-sizing: border-box; /* other browser compatibility */
+  padding: 15px;
+}
